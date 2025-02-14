@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReDi-School Prework Grocery List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <p id="notification"></p>
+        <h1>My Grocery List</h1>
+        <form id="grocery-form">
+            <input id="new-item-input" type="text" placeholder="E.g. Eggs" />
+            <button id="submit-button" type="submit">Add</button>
+        </form>
+        <ul id="grocery-list">
+            <!--  list items will be added dynamically in JS -->
+        </ul>
+        <button class="button" id="remove-all-grocery-items" hidden>Clear grocery list</button> <!-- hidden by default, show when items exist only -->
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
